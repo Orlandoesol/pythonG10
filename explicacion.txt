@@ -1,0 +1,20 @@
+'r' - modo de lectura. Por defecto. Sólo permite leer el archivo, no modificarlo. 
+Cuando se utiliza este modo, el archivo debe existir.
+'w' - modo de escritura. Creará un nuevo archivo si no existe, de lo contrario borrará 
+el archivo y le permitirá escribir en él.
+'a' - modo añadir. Escribirá datos al final del archivo. No borra el archivo, 
+y el archivo debe existir para este modo.
+'rb' - modo de lectura en binario. Esto es similar a r excepto que la lectura es forzada en 
+modo binario. También es la opción por defecto.
+'r+' - modo de lectura más modo de escritura al mismo tiempo. Esto le permite leer y escribir 
+en archivos al mismo tiempo sin tener que usar r y w.
+'rb+' - modo de lectura y escritura en binario. Igual que r+ excepto que los datos están en binario.
+'wb' - modo de escritura en binario. Igual que w excepto que los datos están en binario.
+'w+' - modo de escritura y lectura. Exactamente igual que r+ pero si el archivo no existe, 
+se crea uno nuevo. De lo contrario, el archivo se sobrescribe.
+'wb+' - escritura y lectura en modo binario. Igual que w+ pero los datos están en binario.
+'ab' - añadir en modo binario. Similar a a excepto que los datos están en binario.
+'a+' - añadir y leer en modo binario. Similar a w+, ya que creará un nuevo archivo si el archivo 
+no existe. De lo contrario, el puntero del archivo se encuentra al final del archivo si existe.
+'ab+' - modo de adición y lectura en binario. Igual que a+ excepto que los datos están en 
+binario.
